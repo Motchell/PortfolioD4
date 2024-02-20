@@ -1,0 +1,143 @@
+/*CSS reset settings here*/
+*{
+    color: #c2d6ec;
+}
+
+body{
+    margin: 0;
+    background: rgb(139,102,102);
+    background: radial-gradient(circle, rgba(139,102,102,1) 17%, rgba(29,13,17,1) 83%, rgba(29,13,17,1) 100%);
+    font-family: "Times New Roman", Times, serif;
+}
+
+p{
+    color: #000;
+}
+
+h2, h3{
+    margin-top: 0;
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    height: 75px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+footer{
+    margin-top: 1.5rem;
+    background-color: #f7f7f7;
+    padding: 0.5rem 2rem;
+}
+
+header > span{
+    font-size:x-large;
+    font-weight: 600;
+}
+
+header > h1, span{
+    color: #000;
+}
+
+.titleBar{
+    background: rgb(131,130,138);
+    background: linear-gradient(0deg, rgba(166,164,179,1) 5%, rgba(135,133,147,1) 50%, rgba(166,164,179,1) 94%);
+    padding-left: 0.5rem;
+}
+
+.containerTop{
+    display: flex;
+    gap: 45px;
+    margin: 2% 1.5%;
+    align-items: flex-start;
+}
+
+.containerProfile{
+    height: 380px;
+    padding: 0.5rem;
+    width: 40%;
+    background-color: #c0c0c0;
+    display: inline-block;
+    
+}
+
+.proPic{
+    height: 380px;
+    width: 100%;
+}
+
+.containerProfile:last-child{
+    width: 57%;
+    height: 396px;
+    padding: 0;
+    background-color: #e4dae4;
+}
+
+.containerProfile:last-child > p, a{
+    font-size: x-large;
+    padding: 0 1rem;
+    color: #000;
+}
+
+.containerBot{
+    display: flex;
+}
+
+.containerContent{
+    height: auto;
+    width: 30%;
+    background-color: #e4dae4;;
+    margin: 0 auto;
+}
+
+.containerContent > img{
+    width: 100%;
+    margin-top: 0;
+}
+
+.containerContent > .titleBar > h2{
+    margin-bottom: 0;
+}
+
+.containerContent > p{
+    font-size: large;
+    padding: 0 0.5rem;
+    text-align: justify;
+    height: 158px;
+}
+
+.containTech{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 0 0 5% 8%;
+}
+
+.containTech > img{
+    width: 15%;
+}
+
+footer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.contact{
+    margin-top: 1rem;
+}
+
+.contact > a > img{
+    height: auto;
+    width: 1rem;
+    margin-bottom: -0.15rem;
+}
